@@ -59,13 +59,16 @@
 // }
 
 
-let score = +prompt("Enter the score")
-if (score > 50) {
-    console.log("You are passed")
-} else {
-    console.log("try again")
 
-}
+
+
+// let score = +prompt("Enter the score")
+// if (score > 50) {
+//     console.log("You are passed")
+// } else {
+//     console.log("try again")
+
+// }
 
 // let a = +prompt("Enter the number")
 // let b = +prompt("Enter the number")

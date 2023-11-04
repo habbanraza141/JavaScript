@@ -8,3 +8,5 @@ function greetUser() {
         h1.innerHTML = 'changed through javascript'
     }
 }
+
+greetUser()
