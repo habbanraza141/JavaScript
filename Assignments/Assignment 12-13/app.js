@@ -75,7 +75,6 @@
 //     alert("this is leap year")
 // } else {
 //     alert("this is not a leap year")
-
 // }
 
 
@@ -100,9 +99,10 @@
 //     alert("Good evening");
 // }
 
+
+
 // let a = +prompt("Enter the number")
 // let p = +prompt("Enter the number")
-
 // if (p === a) {
 //     alert("Both are equal")
 // } else if (p > a) {

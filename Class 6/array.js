@@ -23,9 +23,9 @@
 // console.log(namesSplit);
 
 
-// let names = ["Muhammad", " Habban", " Raza"]
-// let namesJoin = names.join('')
-// console.log(namesJoin);
+let names = ["Muhammad", " Habban", " Raza"]
+let namesJoin = names.join('')
+console.log(namesJoin);
 
 
 // let fruit = ['apple', ', banana', ', watermelon', ', guava']
