@@ -1,0 +1,9 @@
+
+
+.container{
+background-color: "rgb(244,67,54)";
+display: flex;
+flex-direction: column;
+align-items: center;
+height: "20%";
+}

@@ -137,18 +137,36 @@
 // console.log("the largest number if this array is " + newArray.splice(3, 1));
 
 
-
 // question number 12
+// const div = document.querySelector(".container")
+// div.innerHTML = "multiples of 5" + "<br />"
+
+// for (let i = 1; i <= 100; i++) {
+//     if (i % 5 == 0) {
+//         div.innerHTML += i + ",";
+//     }
+// }
+
+// question number 15
+// for (let i = 1; i < 2; i++) {
+//     console.log(i)
+//     for (let j = 2; j < 10; j++) {
+//         console.log(j);
+//     }
+// }
+
+// question number 17
 const div = document.querySelector(".container")
-div.innerHTML = "multiples of 5" + "<br />"
+for (let i = 0; i < 20; i++) {
+    if (i % 2 == 0) {
+        div.innerHTML += i + " is even <br/>";
 
-for (let i = 1; i <= 100; i++) {
-    if (i % 5 == 0) {
-        div.innerHTML += i + ",";
+    } else {
+        div.innerHTML += i + " is odd";
+
     }
+
 }
-
-
 
 
 

@@ -20,3 +20,8 @@
 // for (let i = 0; i < fruits.length; i++) {
 //     console.log(`${fruits[i]} and its index number is ${i}`)
 // }
+
+var a = document.querySelector(".inp")
+function foo() {
+    console.log(inp.value);
+}
