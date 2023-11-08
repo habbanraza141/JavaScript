@@ -23,6 +23,7 @@
 
 
 
+
 // let A = ["Nokia", "Samsung", "Apple", "Sony", "Huawei"]
 // for (let i = 0; i < A.length; i++) {
 //     console.log(A[i]); // here i represents index
@@ -144,40 +145,35 @@
 //     }
 // }
 
-const div = document.querySelector(".container")
-for (let i = 0; i < 20; i++) {
-    if (i % 2 == 0) {
-        div.innerHTML += i + " is even <br/>";
+// const div = document.querySelector(".container")
+// for (let i = 0; i < 20; i++) {
+//     if (i % 2 == 0) {
+//         div.innerHTML += i + " is even <br/>";
 
-    } else {
-        div.innerHTML += i + " is odd <br/>";
+//     } else {
+//         div.innerHTML += i + " is odd <br/>";
 
-    }
+//     }
 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// for (i = 1; i < 11; i++) {
-//     console.log(i)
 // }
+
+
+
+// let arrayA = [12, 45, 3, 22, 34, 50]
+// let userStop = +prompt("Enter the number to stop")
+// let newArrayA = arrayA.splice(0, userStop)
+// console.log(newArrayA)
+
+
+
+
+// const div = document.querySelector(".container")
+// let userInput = +prompt("Enter the number of lines")
+// for (let i = 1; i < userInput; i++) {
+//     div.innerHTML += "*****" + "<br />";
+// }
+
+
 
 
 // function showValue() {
