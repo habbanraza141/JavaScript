@@ -1,5 +1,5 @@
-console.log("hello world");
-console.log("4 + 4");
+// console.log("hello world");
+// console.log("4 + 4");
 
 
 //data types
@@ -9,6 +9,13 @@ console.log("4 + 4");
 //boolean true || false
 
 
+// console.log("2 plus two is equal to " + (2 + 2));
+
+// var spec = prompt("Your species?", "human");
+
+// var question = "Your species?";
+// var defaultAnswer = "human";
+// var spec = prompt(question, defaultAnswer);
 
 
 
