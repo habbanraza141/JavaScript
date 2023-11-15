@@ -31,15 +31,19 @@
 
 
 
-// const array = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "MPhil", "PhD"]
-// console.log(array[0]);
-// console.log(array[1]);
-// console.log(array[2]);
-// console.log(array[3]);
-// console.log(array[4]);
-// console.log(array[5]);
-// console.log(array[6]);
-// console.log(array[7]);
+// let array1 = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "MPhil", "PhD"]
+// for (let index = 0; index < array1.length; index++) {
+//     console.log(array1[index]);
+// }
+
+
+// let carArray = ['Audi', 'Volvo', 'Ford', 'Lamborghini']
+// console.log(carArray.indexOf('Audi'));
+// console.log(carArray[0]);
+// console.log(carArray.indexOf('Lamborghini'));
+// console.log(carArray[3]);
+
+
 
 
 
@@ -52,6 +56,11 @@
 
 
 
+// let colors = ['blue', 'green', 'yellow']
+// colors.unshift(prompt('What color do you want to add in the start'))
+// colors.push(prompt('What color do you want to add in the end'))
+// colors.shift()
+// console.log(colors);
 
 // let studentsScore = [320, 230, 480, 120]
 // let orderedStudents = studentsScore.sort()
@@ -111,3 +120,6 @@
 // console.log(arrayNumber);
 // arrayNumber.reverse()
 // console.log(arrayNumber);
+
+let arr = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+console.log(arr);

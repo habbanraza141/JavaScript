@@ -51,14 +51,6 @@
 
 
 
-
-
-
-
-
-
-
-
 // var names = 'Abdullah';
 // let names = 'abdullah';
 // const names = 'abdullah';
