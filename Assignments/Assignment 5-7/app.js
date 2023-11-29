@@ -30,6 +30,23 @@
 // console.log(fiveTicket);
 
 
+
+// centigrade to farheniet
+// function changeFarheinit(n) {
+//     n = prompt('Enter the value of centigrade')
+//     return (n * 9 / 5) + 32
+// }
+// console.log(changeFarheinit());
+
+
+function changeFarheinit(n) {
+    n = prompt('Enter the value of centigrade')
+    return (n - 32) * 5 / 9
+}
+console.log(changeFarheinit());
+
+
+
 // // let f = 34
 // let c = (f - 32) * 5 / 9
 // console.log("32 degree F is " + c + " degree centigrade")
