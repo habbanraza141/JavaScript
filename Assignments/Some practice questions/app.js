@@ -38,8 +38,31 @@
 
 
 
-const a = [true, 2];
-const b = [3, "ajdxnajdn"];
+// const a = [true, 2];
+// const b = [3, "ajdxnajdn"];
 // expected result: [{id: 1}, {id: 2}, {id: 3}, {id: 4}]
-const result = a.concat(b);
-console.log(result);
+// const result = a.concat(b);
+// console.log(result);
+
+
+
+var arr = [
+    {
+        p_id: '01',
+        p_price: '2000',
+        p_img: 'https://images.samsung.com/is/image/samsung/assets/pk/2307/pfs/02-04-ft12-B5-flexmode-mo-720x540.jpg?$FB_TYPE_J_F_MO_JPG$'
+    },
+    {
+        p_id: '02',
+        p_price: '2000',
+        p_img: 'https://images.samsung.com/is/image/samsung/p6pim/pk/feature/164028233/pk-feature--thinsp--532104276?$FB_TYPE_A_MO_JPG$'
+    },
+    {
+        p_id: '03',
+        p_price: '2000',
+        p_img: 'https://images.samsung.com/is/image/samsung/p6pim/pk/sm-a042flbdmeb/gallery/pk-galaxy-a04e-sm-a042-sm-a042flbdmeb-537142111?$650_519_PNG$'
+    }
+
+]
+
+console.log(arr[0]);
