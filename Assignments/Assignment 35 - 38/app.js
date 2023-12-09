@@ -1,3 +1,5 @@
+
+
 // function cars() {
 //     cars = ['mercedes', 'ferrari', 'bmw', 'gmc yukon']
 //     for (let i = 0; i < cars.length; i++) {
@@ -5,6 +7,7 @@
 //     }
 // }
 // cars()
+
 
 
 
@@ -22,24 +25,22 @@
 // function greetUser() {
 //     let firstName = prompt('Enter the first name ')
 //     let lastName = prompt('Enter the last name')
-//     fullName = firstName + lastName
-//     return alert('Hello ' + fullName)
+//     return alert(`Hello ${firstName} ${lastName}`)
 // }
 // greetUser()
 
 
 
 
+let num1 = +prompt('Enter the first number you want to add')
+let num2 = +prompt('Enter the second number you want to add')
 
+function sumOf() {
+    let sum = num1 + num2
+    return sum
+}
 
-// function sumOf() {
-//     let num1 = +prompt('Enter the first number you want to add')
-//     let num2 = +prompt('Enter the second number you want to add')
-//     sum = num1 + num2
-//     return sum
-// }
-
-// console.log(sumOf());
+console.log(sumOf());
 
 
 
